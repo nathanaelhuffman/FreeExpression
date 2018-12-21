@@ -58,7 +58,7 @@ void setup(void)
 	
 	msleep(100);
 	
-	display_print(VERSION );
+	display_println(VERSION );
 	// Unfortunate duplication of code here and in keaypac.c 
 	// TODO: moe into a function and call both places. 
 	switch (Lang)

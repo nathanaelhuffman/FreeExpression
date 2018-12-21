@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="m2u8" displayName="m2u8" projectFiles="true">
+        <itemPath>../m2u8/chessengine.c</itemPath>
+        <itemPath>../m2u8/u8g_bitmap.c</itemPath>
+        <itemPath>../m2u8/u8g_circle.c</itemPath>
+        <itemPath>../m2u8/u8g_clip.c</itemPath>
+        <itemPath>../m2u8/u8g_com_api.c</itemPath>
+        <itemPath>../m2u8/u8g_com_api_16gr.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_attiny85_hw_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_common.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_fast_parallel.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_hw_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_hw_usart_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_no_en_parallel.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_parallel.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_port_d_wr.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_ssd_i2c.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_st7920_custom.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_st7920_hw_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_st7920_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_std_sw_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_sw_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_t6963.c</itemPath>
+        <itemPath>../m2u8/u8g_com_arduino_uc_i2c.c</itemPath>
+        <itemPath>../m2u8/u8g_com_atmega_hw_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_atmega_parallel.c</itemPath>
+        <itemPath>../m2u8/u8g_com_atmega_st7920_hw_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_atmega_st7920_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_atmega_sw_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_i2c.c</itemPath>
+        <itemPath>../m2u8/u8g_com_io.c</itemPath>
+        <itemPath>../m2u8/u8g_com_null.c</itemPath>
+        <itemPath>../m2u8/u8g_com_raspberrypi_hw_spi.c</itemPath>
+        <itemPath>../m2u8/u8g_com_raspberrypi_ssd_i2c.c</itemPath>
+        <itemPath>../m2u8/u8g_cursor.c</itemPath>
+        <itemPath>../m2u8/u8g_delay.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_a2_micro_printer.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_flipdisc_2x7.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_gprof.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ht1632.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ili9325d_320x240.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ks0108_128x64.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_lc7981_160x80.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_lc7981_240x128.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_lc7981_240x64.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_lc7981_320x64.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ld7032_60x32.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_null.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_pcd8544_84x48.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_pcf8812_96x65.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_sbn1661_122x32.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1306_128x32.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1306_128x64.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1309_128x64.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1322_nhd31oled_bw.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1322_nhd31oled_gr.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1325_nhd27oled_bw.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1325_nhd27oled_bw_new.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1325_nhd27oled_gr.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1325_nhd27oled_gr_new.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1327_96x96_gr.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_ssd1351_128x128.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7565_64128n.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7565_dogm128.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7565_dogm132.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7565_lm6059.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7565_lm6063.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7565_nhd_c12832.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7565_nhd_c12864.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7687_c144mvgd.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7920_128x64.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7920_192x32.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_st7920_202x32.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_t6963_128x128.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_t6963_128x64.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_t6963_240x128.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_t6963_240x64.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_tls8204_84x48.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_uc1601_c128032.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_uc1608_240x128.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_uc1608_240x64.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_uc1610_dogxl160.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_uc1611_dogm240.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_uc1611_dogxl240.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_uc1701_dogs102.c</itemPath>
+        <itemPath>../m2u8/u8g_dev_uc1701_mini12864.c</itemPath>
+        <itemPath>../m2u8/u8g_ellipse.c</itemPath>
+        <itemPath>../m2u8/u8g_font.c</itemPath>
+        <itemPath>../m2u8/u8g_font_data.c</itemPath>
+        <itemPath>../m2u8/u8g_line.c</itemPath>
+        <itemPath>../m2u8/u8g_ll_api.c</itemPath>
+        <itemPath>../m2u8/u8g_page.c</itemPath>
+        <itemPath>../m2u8/u8g_pb.c</itemPath>
+        <itemPath>../m2u8/u8g_pb14v1.c</itemPath>
+        <itemPath>../m2u8/u8g_pb16h1.c</itemPath>
+        <itemPath>../m2u8/u8g_pb16h2.c</itemPath>
+        <itemPath>../m2u8/u8g_pb16v1.c</itemPath>
+        <itemPath>../m2u8/u8g_pb16v2.c</itemPath>
+        <itemPath>../m2u8/u8g_pb32h1.c</itemPath>
+        <itemPath>../m2u8/u8g_pb8h1.c</itemPath>
+        <itemPath>../m2u8/u8g_pb8h1f.c</itemPath>
+        <itemPath>../m2u8/u8g_pb8h2.c</itemPath>
+        <itemPath>../m2u8/u8g_pb8h8.c</itemPath>
+        <itemPath>../m2u8/u8g_pb8v1.c</itemPath>
+        <itemPath>../m2u8/u8g_pb8v2.c</itemPath>
+        <itemPath>../m2u8/u8g_pbxh16.c</itemPath>
+        <itemPath>../m2u8/u8g_pbxh24.c</itemPath>
+        <itemPath>../m2u8/u8g_polygon.c</itemPath>
+        <itemPath>../m2u8/u8g_rect.c</itemPath>
+        <itemPath>../m2u8/u8g_rot.c</itemPath>
+        <itemPath>../m2u8/u8g_scale.c</itemPath>
+        <itemPath>../m2u8/u8g_state.c</itemPath>
+        <itemPath>../m2u8/u8g_u16toa.c</itemPath>
+        <itemPath>../m2u8/u8g_u8toa.c</itemPath>
+        <itemPath>../m2u8/u8g_virtual_screen.c</itemPath>
+      </logicalFolder>
+      <itemPath>../avrlibdefs.h</itemPath>
+      <itemPath>../avrlibtypes.h</itemPath>
+      <itemPath>../cli.c</itemPath>
+      <itemPath>../cli.h</itemPath>
+      <itemPath>../configs.h</itemPath>
+      <itemPath>../dial.c</itemPath>
+      <itemPath>../dial.h</itemPath>
+      <itemPath>../display.c</itemPath>
+      <itemPath>../display.h</itemPath>
+      <itemPath>../flash.c</itemPath>
+      <itemPath>../flash.h</itemPath>
+      <itemPath>../avrlib.h</itemPath>
+      <itemPath>../g_code.h</itemPath>
+      <itemPath>../g_code.c</itemPath>
+      <itemPath>../hpgl.c</itemPath>
+      <itemPath>../hpgl.h</itemPath>
+      <itemPath>../keypad.c</itemPath>
+      <itemPath>../keypad.h</itemPath>
+      <itemPath>../lcd.c</itemPath>
+      <itemPath>../lcd.h</itemPath>
+      <itemPath>../main.c</itemPath>
+      <itemPath>../scale.c</itemPath>
+      <itemPath>../scale.h</itemPath>
+      <itemPath>../serial.c</itemPath>
+      <itemPath>../serial.h</itemPath>
+      <itemPath>../shvars.c</itemPath>
+      <itemPath>../shvars.h</itemPath>
+      <itemPath>../spi.c</itemPath>
+      <itemPath>../spi.h</itemPath>
+      <itemPath>../stepper.c</itemPath>
+      <itemPath>../stepper.h</itemPath>
+      <itemPath>../timer.c</itemPath>
+      <itemPath>../timer.h</itemPath>
+      <itemPath>../uart.h</itemPath>
+      <itemPath>../usb.c</itemPath>
+      <itemPath>../usb.h</itemPath>
+      <itemPath>../version.h</itemPath>
+      <itemPath>../m2u8/u8g.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../m2u8</Elem>
+    <Elem>..</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATmega1281</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>snap</platformTool>
+        <languageToolchain>AVR</languageToolchain>
+        <languageToolchainVersion>5.4.0</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="ATmega_DFP" vendor="Atmel" version="1.2.285"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <AVR-AR>
+        <property key="archiver-flags" value="-r"/>
+      </AVR-AR>
+      <AVR-AS>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths" value=""/>
+        <property key="suppress-warnings" value="false"/>
+      </AVR-AS>
+      <AVR-AS-PRE>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="suppress-warnings" value="false"/>
+      </AVR-AS-PRE>
+      <AVR-CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="call-prologues" value="false"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="garbage-collect-data" value="true"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-interrupts" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-O0"/>
+        <property key="pack-struct" value="false"/>
+        <property key="preprocess-only" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="save-temps" value="false"/>
+        <property key="short-calls" value="false"/>
+        <property key="short-enums" value="false"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="verbose" value="false"/>
+      </AVR-CPP>
+      <AVR-GCC>
+        <property key="additional-warnings" value="true"/>
+        <property key="call-prologues" value="false"/>
+        <property key="default-bitfield-type" value="true"/>
+        <property key="default-char-type" value="true"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="garbage-collect-data" value="true"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-interrupts" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-Os"/>
+        <property key="pack-struct" value="true"/>
+        <property key="preprocessor-macros" value="NDEBUG"/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="save-temps" value="false"/>
+        <property key="short-calls" value="false"/>
+        <property key="short-enums" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="verbose" value="false"/>
+      </AVR-GCC>
+      <AVR-Global>
+        <property key="common-include-directories" value=""/>
+        <property key="eep" value="false"/>
+        <property key="external-ram-check" value="false"/>
+        <property key="hex" value="true"/>
+        <property key="lss" value="false"/>
+        <property key="omit-pack-options" value="true"/>
+        <property key="relax-branches" value="false"/>
+        <property key="srec" value="false"/>
+        <property key="user-pack-device-support"
+                  value="C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\gcc\dev\atmega1281"/>
+        <property key="user-pack-include"
+                  value="C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\include"/>
+        <property key="usersig" value="false"/>
+      </AVR-Global>
+      <AVR-LD>
+        <property key="eeprom-segment" value=""/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="flash-segment" value=""/>
+        <property key="generate-map-file" value="true"/>
+        <property key="initial-stack-address" value=""/>
+        <property key="input-libraries" value="libm;libm"/>
+        <property key="no-default-libs" value="false"/>
+        <property key="no-shared-libraries" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="omit-symbol-information" value="false"/>
+        <property key="other-options" value=""/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="rodata-writable" value="false"/>
+        <property key="sram-segment" value=""/>
+        <property key="v-printf" value="true"/>
+      </AVR-LD>
+      <snap>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="communication.interface" value="isp"/>
+        <property key="communication.speed" value="0.200"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-1ffff"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmentry.voltage" value="low"/>
+        <property key="programoptions.pgmspeed" value="Med"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+      </snap>
+    </conf>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATmega1281</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>snap</platformTool>
+        <languageToolchain>AVR</languageToolchain>
+        <languageToolchainVersion>5.4.0</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="ATmega_DFP" vendor="Atmel" version="1.2.285"/>
+      </packs>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <AVR-AR>
+        <property key="archiver-flags" value="-r"/>
+      </AVR-AR>
+      <AVR-AS>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths" value=""/>
+        <property key="suppress-warnings" value="false"/>
+      </AVR-AS>
+      <AVR-AS-PRE>
+        <property key="announce-version" value="false"/>
+        <property key="include-paths" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="suppress-warnings" value="false"/>
+      </AVR-AS-PRE>
+      <AVR-CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="call-prologues" value="false"/>
+        <property key="default-bitfield-type" value="false"/>
+        <property key="default-char-type" value="false"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="garbage-collect-data" value="true"/>
+        <property key="garbage-collect-functions" value="true"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-interrupts" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-O0"/>
+        <property key="pack-struct" value="false"/>
+        <property key="preprocess-only" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="save-temps" value="false"/>
+        <property key="short-calls" value="false"/>
+        <property key="short-enums" value="false"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="verbose" value="false"/>
+      </AVR-CPP>
+      <AVR-GCC>
+        <property key="additional-warnings" value="true"/>
+        <property key="call-prologues" value="false"/>
+        <property key="default-bitfield-type" value="true"/>
+        <property key="default-char-type" value="true"/>
+        <property key="extra-include-directories" value=""/>
+        <property key="extra-warnings" value="false"/>
+        <property key="garbage-collect-data" value="false"/>
+        <property key="garbage-collect-functions" value="false"/>
+        <property key="inhibit-all" value="false"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="no-interrupts" value="false"/>
+        <property key="no-system-directories" value="false"/>
+        <property key="optimization-level" value="-Os"/>
+        <property key="pack-struct" value="true"/>
+        <property key="preprocessor-macros" value="DEBUG;F_CPU=16000000UL"/>
+        <property key="preprocessor-macros-undefined" value=""/>
+        <property key="save-temps" value="false"/>
+        <property key="short-calls" value="false"/>
+        <property key="short-enums" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="strict-ansi-errors" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="syntax-only" value="false"/>
+        <property key="undefined-identifier" value="false"/>
+        <property key="verbose" value="false"/>
+      </AVR-GCC>
+      <AVR-Global>
+        <property key="common-include-directories" value=""/>
+        <property key="eep" value="true"/>
+        <property key="external-ram-check" value="false"/>
+        <property key="hex" value="true"/>
+        <property key="lss" value="true"/>
+        <property key="omit-pack-options" value="true"/>
+        <property key="relax-branches" value="true"/>
+        <property key="srec" value="true"/>
+        <property key="user-pack-device-support"
+                  value="C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\gcc\dev\atmega1281"/>
+        <property key="user-pack-include"
+                  value="C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\include"/>
+        <property key="usersig" value="false"/>
+      </AVR-Global>
+      <AVR-LD>
+        <property key="eeprom-segment" value=""/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="flash-segment" value=""/>
+        <property key="generate-map-file" value="false"/>
+        <property key="initial-stack-address" value=""/>
+        <property key="input-libraries"
+                  value="libm;libm;libscanf_flt;scanf_flt;printf_flt;libprintf_flt"/>
+        <property key="no-default-libs" value="false"/>
+        <property key="no-shared-libraries" value="false"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="omit-symbol-information" value="false"/>
+        <property key="other-options" value=""/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="rodata-writable" value="false"/>
+        <property key="sram-segment" value=""/>
+        <property key="v-printf" value="true"/>
+      </AVR-LD>
+      <snap>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="communication.interface" value="isp"/>
+        <property key="communication.speed" value="2"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-1ffff"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmentry.voltage" value="low"/>
+        <property key="programoptions.pgmspeed" value="Med"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+      </snap>
+    </conf>
+  </confs>
+</configurationDescriptor>
