@@ -25,19 +25,24 @@ Cricut is a trademark of PROVO CRAFT and this firmware is **not** a PROVO CRAFT 
 
 This work was forked from https://github.com/thetazzbot/FreeExpression which originally was forked from https://github.com/Arlet/Freecut  
 
-
-This fork uses a Standard 4x20 LCD with a SPI interface in place of the graphics LCD that comes on the expression machine. See the hack_notes file for how this was added to the machine. *I did not want to spend the time and effort to figure out how to control the original LCD.*
-
+This fork uses the original OLED display installed on the unit rather than an aftermarket LCD display.
+This for was also ported to MPLAB-X IDE.  Note: there is some code that requires disabling the warnings to errors on the compiler that I didn't want to figure out how to fix.
 
 
 If you still want to proceed:
 
 
-You will need a ATMEL programmer device and an Atmel Studio 6.2 or newer installation. I'm using an ATMEL JTAG ICE MKII pod and the JTAG interface of the AVR. See picture and detailing connection and file Connector pinout.txt for details.
+You will need a ATMEL programmer device (I used an MPLAB Snap in ISP mode) and MPLAB X 5.10 or newer IDE installation, as well as the AVR GCC compilers from Atmel Studio or separate download. 
 
 
 Use Inkscape to draw and send a file to the cutter.  Inkscape 0.91 has an export to Plot feature (under Extensions) which sends a HPGL langauge file to the COM port where the cutter is connected to. Use 9600 baud and  make sure XON/XOFF is selected for flow control. Inkscape works good on WIndows and Linux machines. 
 
+----------
+
+
+## Configuration Bits / Fuses: ##
+See the following screenshot:
+![Fuse Settings](Docs/configuration_bits_fuses.png?raw-true "Fuses")
 
 ----------
 
